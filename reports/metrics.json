@@ -1,0 +1,44 @@
+{
+  "selected_model": "random_forest",
+  "threshold": 0.5,
+  "test_rows": 1409,
+  "positive_rate_test": 0.2654364797728886,
+  "model_comparison": {
+    "logistic_regression": {
+      "accuracy": 0.7381121362668559,
+      "precision": 0.504302925989673,
+      "recall": 0.7834224598930482,
+      "f1": 0.6136125654450262,
+      "roc_auc": 0.8412978893797307,
+      "pr_auc": 0.6325780038908728,
+      "confusion_matrix": [
+        [
+          747,
+          288
+        ],
+        [
+          81,
+          293
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.7601135557132718,
+      "precision": 0.536144578313253,
+      "recall": 0.713903743315508,
+      "f1": 0.6123853211009175,
+      "roc_auc": 0.8351339481774265,
+      "pr_auc": 0.6341419058852803,
+      "confusion_matrix": [
+        [
+          804,
+          231
+        ],
+        [
+          107,
+          267
+        ]
+      ]
+    }
+  }
+}
